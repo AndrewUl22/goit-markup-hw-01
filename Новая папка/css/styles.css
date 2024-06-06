@@ -1,0 +1,266 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: #434455;
+	background-color: #fff;
+    max-width: 1440px;
+}
+a {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    direction: underline;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+address {
+    margin-left: auto;
+}
+/* navigation-menu */
+.head-nav {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+.navigation-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation {
+    background: #fff;  
+}
+header ul {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.navigation-studio {
+    font-family: "Roboto", sans-serif;
+}
+.navigation-logo:hover {
+    color: #404bbf;
+}
+.navigation-logo:focus {
+    color: #404bbf;
+}
+.studio {
+    color: #2e2f42;
+}
+.navigation-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d5ae5;
+    text-decoration: none;
+    margin-right: 76px;
+}
+.navigation-logo:hover {
+    color: #404bbf;
+}
+.navigation-logo:focus {
+    color: #404bbf;
+}
+.studio {
+    color: #2e2f42;
+}
+.container-nav-menu {
+    display: flex;
+    gap: 40px;
+}
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    display: block;
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0
+}
+.nav:hover,
+.nav:focus {
+color: #404bbf;
+}  
+.navigation-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navigation-list:hover,
+.navigation-list:focus {
+    color: #404bbf;
+}
+.studio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;    
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2e2f42;
+}
+.info {
+    display: flex;
+    gap: 40px;
+    font-style: normal;
+    margin-left: auto;
+}
+.connect-info {
+    font-size: 16px;
+    color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .connect-info:hover,
+    .connect-info:focus {
+        color: #404bbf;
+    }
+.active-title {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4d5ae5;
+        color: #fff;
+        cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+        background-color: #404bbf;
+}
+.advant-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.act {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.effect-business {
+    background-color: #2e2f42;
+}
+.title-text {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+    color: #fff;
+}
+.team-work {
+    background-color: #fff;
+}
+.our-team {
+    background-color: #f4f4fd;
+}
+.lead-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.lead-job {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.logo-studio-footer {
+    color: #f4f4fd;
+}
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}  
